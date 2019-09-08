@@ -13,3 +13,18 @@
 |Sum|int|Сумма проекта
 
 
+## Status
+|Field|Type|Description
+|-----|----|-----------|
+|Id|int|Уникальный первичный ключ
+|Name|str|Наименование
+
+
+## Status
+|Name|Description|
+|-----|----|
+|Plan|плановый|
+|Active|активный текущий|
+|Wait|ожидание утверждения|
+|Close|закрытый|
+

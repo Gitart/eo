@@ -45,10 +45,17 @@
 |Workmob|str|Рабочий моб телефон
 |Position|str|Должность
 |Departments_id|int|Отдел
-|Branch|int|Филиал
+|Branch_id|int|Филиал
 |Оrganization_id|id|Компания
-|Status|str|Статус
+|Status_id|str|Статус
 
+
+## Описание статусов
+|Name|Description|
+|-----|----|
+|Plan|Соискатель|
+|Active|Активный|
+|Faire|Уволен|
 
 
 

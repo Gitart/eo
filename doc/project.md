@@ -30,3 +30,38 @@
 |Archive|Архивный|
 
 
+# Users
+
+|Field|Type|Description
+|-----|----|-----------|
+|Id|int|Уникальный первичный ключ
+|Login|str|Логин
+|Password|str|Hash Passwords
+|Fistname|str|Фамилия
+|Middlename|str|Имя
+|Lastname|str|Отчество
+|Email|str|Почта
+|Mob|str|Мобильный телефон
+|Workmob|str|Рабочий моб телефон
+|Position|str|Должность
+|Department|int|Отдел
+|Branch|int|Филиал
+|Company|id|Компания
+|Status|str|Статус
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

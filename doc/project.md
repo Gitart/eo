@@ -37,16 +37,16 @@
 |Id|int|Уникальный первичный ключ
 |Login|str|Логин
 |Password|str|Hash Passwords
-|Fistname|str|Фамилия
-|Middlename|str|Имя
-|Lastname|str|Отчество
+|Fist_name|str|Фамилия
+|Middle_name|str|Имя
+|Last_name|str|Отчество
 |Email|str|Почта
 |Mob|str|Мобильный телефон
 |Workmob|str|Рабочий моб телефон
 |Position|str|Должность
-|Department|int|Отдел
+|Departments_id|int|Отдел
 |Branch|int|Филиал
-|Company|id|Компания
+|Оrganization_id|id|Компания
 |Status|str|Статус
 
 

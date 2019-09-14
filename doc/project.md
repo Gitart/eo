@@ -1,16 +1,20 @@
-# Project
+# Projects
 
 |Field|Type|Description
 |-----|----|-----------|
 |Id|int|Уникальный первичный ключ
-|Name|str|Наименование
-|Code|str|Уникальный код 
+|Name|str|Наименование 
+|Description|string|Описание проекта
+|Code|str|Уникальный код внутри организации
 |Date|date|Дата старта
 |DateEnd|date|Дата финиша
+|DeadLine|date|Дата сдачи проекта
 |ManagerId|int|Ид менеджера
 |Descript|str|Описание
-|Status|int|Статус Ид проекта
 |Sum|int|Сумма проекта
+|Status|int|Статус Ид проекта
+|Remark|string|Примечание
+
 
 
 ## Status
@@ -20,7 +24,7 @@
 |Name|str|Наименование
 
 
-## Описание статусов
+## Описание статусов проекта
 |Name|Description|
 |-----|----|
 |Plan|Плановый|
@@ -28,6 +32,15 @@
 |Wait|Ожидание утверждения|
 |Close|Закрытый|
 |Archive|Архивный|
+
+# Teams
+|Field|Type|Description
+|-----|----|-----------|
+|Id|int|Уникальный первичный ключ
+|ProjectId|int|Id проекта
+|UserId|int|Id пользователя 
+|Remark|string|Примечание
+
 
 
 # Users
@@ -50,7 +63,7 @@
 |Status_id|str|Статус
 
 
-## Описание статусов
+## Описание статусов пользователей
 |Name|Description|
 |-----|----|
 |Plan|Соискатель|

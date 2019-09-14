@@ -12,14 +12,14 @@ URL ресурса: https://myaccount.business.ru/api/rest/paymentin.json
 |date	|datetime				Дата документа
 |author_employee_id	|int|	Ссылка на сотрудника, автора документа
 |organization_id	|int	|Ссылка на организацию, оформившей документ
-|payment_type	|int				Флаг вида платежа (1-запланированный, 2-совершенный)
-|operation_id	|int	post	paymentinoperations		Ссылка на вид операции
-|current_account_id	|int		currentaccounts		Ссылка на расчетный счет
-|sum	|float	|			Сумма
-|nds_id	|int|				Ссылка на НДС
-|nds_sum|	float|				Сумма НДС
-|currency_value	|float|				Текущий курс валюты
-|partner_id	|int|		Ссылка на контрагента
+|payment_type	|int	|	Флаг вида платежа (1-запланированный, 2-совершенный)
+|operation_id	|int	|Ссылка на вид операции
+|current_account_id	|int|	Ссылка на расчетный счет
+|sum	|float	|Сумма
+|nds_id	|int|	Ссылка на НДС
+|nds_sum|	float|Сумма НДС
+|currency_value	|float|	Текущий курс валюты
+|partner_id	|int|	Ссылка на контрагента
 |partner_current_account_id||Ссылка на расчетный счет контрагента
 |income_number|string|Номер входящий
 |income_date|date|Дата входящая

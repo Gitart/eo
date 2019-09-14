@@ -51,6 +51,41 @@
 |HourFact|int|Фактические часы|
 |Approve|int|Утврежденные часы|
 |Status|int|Статус Ид проекта|
+|Task_type_id|int|Ссылка на тип задачи
+|description|	string|Описание задачи
+|Author_employee_id|int|	Ссылка на сотрудника, автора документа
+|participants_ids	|int[]|	Массив ссылок на участников
+|performer_id	|int|	Ссылка на сотрудника-исполнителя
+|partner_id	|int|	Ссылка на контрагента
+|partner_phone_id	|int	|Ссылка на контактную информацию (телефон) контрагента
+|partner_employee_id|	int|Ссылка на контактное лицо контрагента
+|partner_employee_phone_id|	int|Ссылка на контактную информацию (телефон) контактного лица контрагента
+|date_time_begin|	datetime|	Дата и время начала
+|date_time_end	|datetime	|	Планируемые дата и время окончания
+|result|	string|	Результат выполнения задачи
+|deal_id|	int|Ссылка на сделку
+|done|	bool|	Флаг "Задача выполнена"
+|date_time_done	|datetime	|			Фактические дата и время окончания
+|vdone_employee_id|	int	|	Ссылка на сотрудника, закрывщего задачу
+|allday|	bool|	Флаг "Задача на весь день"
+|private|	bool|	Флаг "Личное"
+|where|	string|	Место встречи
+|status_id|	int| на статус задачи
+|updated	|datetime|Время последнего обновления
+|deleted|	bool	|Строка удалена (перемещена в корзину)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Users

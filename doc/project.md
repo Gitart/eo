@@ -41,6 +41,16 @@
 |UserId|int|Id пользователя 
 |Remark|string|Примечание
 
+# Task
+|Field|Type|Description
+|-----|----|-----------|
+|Id|int|Уникальный первичный ключ
+|Name|string|Наименование|
+|Resp|int|Отвественный|
+|HourPlan|int|Плановые часы|
+|HourFact|int|Фактические часы|
+|Approve|int|Утврежденные часы|
+|Status|int|Статус Ид проекта|
 
 
 # Users

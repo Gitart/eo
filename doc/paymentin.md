@@ -8,8 +8,8 @@ URL ресурса: https://myaccount.business.ru/api/rest/paymentin.json
 |Параметр	|Тип	|Описание|
 |-----------|-------|----------|
 |id	    |int|Идентификатор
-|number	|string				Номер документа
-|date	|datetime				Дата документа
+|number	|string	|			Номер документа
+|date	|datetime|				Дата документа
 |author_employee_id	|int|	Ссылка на сотрудника, автора документа
 |organization_id	|int	|Ссылка на организацию, оформившей документ
 |payment_type	|int	|	Флаг вида платежа (1-запланированный, 2-совершенный)
